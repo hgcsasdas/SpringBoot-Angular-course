@@ -9,6 +9,7 @@ import { TitleComponent } from "./title/title.component";
 import { UserCardComponent } from "./user-card/user-card.component";
 import { FormsModule } from "@angular/forms";
 import { AppRoutingModule } from "../app-routing.module";
+import { AalubiaComponent } from './aalubia/aalubia.component';
 
 
 
@@ -21,7 +22,8 @@ import { AppRoutingModule } from "../app-routing.module";
     AvatarComponent,
     BtnComponent,
     UserCardComponent,
-    ProductCardComponent
+    ProductCardComponent,
+    AalubiaComponent
   ],
   imports: [
     CommonModule,
